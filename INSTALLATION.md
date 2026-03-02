@@ -9,8 +9,8 @@ docker run -d --name weaviate \
   -v $(pwd)/weaviate-data:/var/lib/weaviate \
   semitechnologies/weaviate:latest
   ```
-  - In this case, the host port is 8081, but inside Docker it still listens on 8080.
+- In this case, the host port is 8081, but inside Docker it still listens on 8080.
 
-` Access via: `http://localhost:8081`.
+- Access via: `http://localhost:8081`.
 
 
